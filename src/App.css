@@ -1,11 +1,24 @@
+:root {
+  --tyrian: #550527;
+  --bg-gradient: linear-gradient(63.31deg, #FFFBF4 17.18%, #FFFDF9 84.14%);
+}
+
 .App {
   text-align: center;
+  padding: 1rem 4rem;
+  background: var(--bg-gradient);
+  color: var(--tyrian);
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
+
+
+
+
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
