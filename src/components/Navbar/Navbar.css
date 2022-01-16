@@ -1,33 +1,60 @@
-.navbar{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    
-  }
-  
-  .nav_links{
-    display: flex;
-    /* justify-content: space-evenly; */
-    align-items: center;
-    background: none
-  }
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--tyrian);
+}
+
+.brand_name {
+  color: var(--tyrian);
+  font-weight: 700;
+}
+
+.nav_links {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background: none;
+}
 
 .nav_menu {
-    background: none;
-    border: none;
-    color: var(--tyrian);
-    font-weight: 400;
-  }
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+  background: none;
+  border: none;
+  color: var(--tyrian);
+  font-weight: 400;
+  font-size: 1rem;
+}
 
-.btn-border {
-      border: 1px solid var(--tyrian);
-      color: var(--tyrian);
-  }
-
+.cta_btn {
+  border: 1px solid var(--tyrian);
+  color: var(--tyrian);
+  font-weight: 600;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+}
+.cta_btn:hover {
+  color: white;
+  border: 1px solid var(--orange);
+  background-color: var(--orange);
+}
 
 .brand-h1 {
-    color: var(--tyrian);
-    font-weight: 800;
+  color: var(--tyrian);
+  font-weight: 800;
 }
-  
-  
+
+.menu_item {
+  color: var(--tyrian);
+  border-bottom: 1px solid transparent;
+}
+
+.menu_item:hover {
+  color: var(--orange);
+  border-bottom: 1px solid var(--orange);
+}
+
+
