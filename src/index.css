@@ -8,7 +8,7 @@ body {
   /* Make type rendering look crisper */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: linear-gradient(63.31deg, #FFFBF4 17.18%, #FFFDF9 84.14%);
+  background: linear-gradient(63.31deg, #fffbf4 17.18%, #fffdf9 84.14%);
 }
 
 code {
