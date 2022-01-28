@@ -5,9 +5,9 @@
 
 .App {
   text-align: center;
-  padding: 1rem 4rem;
   background: var(--bg-gradient);
   color: var(--tyrian);
+  padding: 0px 48px;
 }
 
 .App-logo {
