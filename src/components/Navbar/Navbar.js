@@ -47,6 +47,7 @@ const StyledNavarConsultNowButton = styled.button`
   cursor: pointer;
   user-select: none;
   font-family: 'Inter';
+  font-weight: 600;
 `;
 
 const StyledLogo = styled.img``;
